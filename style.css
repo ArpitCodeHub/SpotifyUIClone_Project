@@ -1,0 +1,352 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins'; 
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    margin:8px 10px;
+    width: 100%;
+    align-items: center;
+    z-index: 2;
+    background-color: black;
+}
+
+.middle-nav-outer{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+}
+
+.middle-nav-inner{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(60, 58, 58);
+    padding:10px 20px;
+    border-radius: 30px;
+}
+
+.searchBox{
+    height: 40%;
+    font-size: 16px;
+    padding:10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(60, 58, 58);
+    color: white;
+}
+.left-nav{
+    width:25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.login{
+    background-color:white;
+    padding:10px 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+#left-content{
+    position: fixed;
+    top:11%;
+    left:0;
+    max-width:25rem;
+    height:100%;
+    background-color: rgb(30, 29, 29);
+    border-radius:15px;
+    margin-left: 10px;
+    padding:10px 10px;
+    z-index: 1;
+}
+
+.left-content-top{
+    display: flex;
+    gap:10px;
+    padding:10px 10px;
+    margin-bottom: 40px;
+}
+
+.left-content-btn1{
+    background-color: rgb(60, 58, 58);
+    padding: 10px 10px;
+    border-radius: 15px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.left-content-btn2{
+    background-color: rgb(60, 58, 58);
+    padding: 10px 10px;
+    border-radius: 15px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.btn1{
+    font-size:15px;
+    padding:8px 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.btn2{
+    font-size:15px;
+    padding:8px 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.left-info1{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding:8px 8px;
+}
+
+.left-info2{
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    gap:20px;
+    padding:8px 8px;
+}
+
+.left-info3{
+    padding:8px 8px;
+    font-size: 13px;
+}
+
+.lang{
+    font-size:16px;
+    padding:10px 12px;
+    border-radius: 20px;
+    font-weight:bold;
+}
+
+#main-content{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#scroll-content{
+    position:absolute;
+    top:11%;
+    width: calc(100% - 26.5rem);
+    height:100%;
+    background-image: linear-gradient(to top,black,rgb(60, 58, 58));
+    margin-left: 26rem;
+    border-radius:15px;
+    z-index: 0;
+    padding :15px 15px;
+}
+.artist1{
+    width:150px;
+    height:150px;
+    background-image:url("https://artistsimages.b-cdn.net/parmish-verma/parmish-verma-1.jpg");
+    background-size: contain;
+    border-radius: 50%;
+}
+.artist2{
+    width:150px;
+    height:150px;
+    background-image:url("https://cdns-images.dzcdn.net/images/cover/22f4e4606f6b9a7bad96f74fa42c3778/0x1900-000000-80-0-0.jpg");
+    background-size: contain;
+    border-radius: 50%;
+}
+.artist3{
+    width:150px;
+    height:150px;
+    background-image:url("https://www.musiculture.in/wp-content/uploads/2023/03/Paradox-1-812x800.jpeg");
+    background-size: contain;
+    border-radius: 50%;
+}
+.artist4{
+    width:150px;
+    height:150px;
+    background-image:url("https://cdns-images.dzcdn.net/images/artist/8d345728df0043f6175d1d41eb9ef1b7/1900x1900-000000-80-0-0.jpg");
+    background-size: contain;
+    border-radius: 50%;
+}
+.artist5{
+    width:150px;
+    height:150px;
+    background-image: url("https://i.scdn.co/image/ab6761610000e5eb9973157bdaedef3f77ef8e13");
+    background-size: cover;
+    border-radius: 50%;
+}
+.artist6{
+    width:150px;
+    height:150px;
+    background-image: url("https://i.pinimg.com/736x/42/c7/3d/42c73d923bea2cb55d7945cdce137576.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+#artist-container{
+    display:flex;
+    justify-content: space-around;
+}
+h5{
+    text-align: center;
+}
+.album1{
+    width:150px;
+    height:150px;
+    background-image:url("https://upload.wikimedia.org/wikipedia/en/4/4f/Aashiqui_2.jpeg");
+    background-size: contain;
+    border-radius: 10%;
+}
+.album2{
+    width:150px;
+    height:150px;
+    background-image:url("https://m.media-amazon.com/images/I/71UXkorikgL._UF1000,1000_QL80_.jpg");
+    background-size: contain;
+    border-radius: 10%;
+}
+.album3{
+    width:150px;
+    height:150px;
+    background-image:url("https://images.genius.com/5ec85acd8642096857b86ed76f43fb82.1000x1000x1.png");
+    background-size: cover;
+    border-radius: 10%;
+}
+.album4{
+    width:150px;
+    height:150px;
+    background-image:url("https://images.genius.com/eaf202dd888ff47a0ffd157cb898c93e.720x720x1.jpg");
+    background-size: contain;
+    border-radius: 10%;
+}
+.album5{
+    width:150px;
+    height:150px;
+    background-image: url("https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4");
+    background-size: cover;
+    border-radius: 10%;
+}
+.album6{
+    width:150px;
+    height:150px;
+    background-image: url("https://i.scdn.co/image/ab67616d0000b2735f3ede47954a93aa03efe5f9");
+    background-size: cover;
+    border-radius: 10%;
+}
+#album-container{
+    display:flex;
+    justify-content: space-around;
+}
+.song1{
+    width:150px;
+    height:150px;
+    background-image:url("https://c.saavncdn.com/326/Gaadi-Paache-Gaadi-Haryanvi-2022-20221013161516-500x500.jpg");
+    background-size: contain;
+    border-radius: 10%;
+}
+.song2{
+    width:150px;
+    height:150px;
+    background-image:url("https://c.saavncdn.com/325/Lal-Dabbi-Haryanvi-2023-20230927115538-500x500.jpg");
+    background-size: contain;
+    border-radius: 10%;
+}
+.song3{
+    width:150px;
+    height:150px;
+    background-image:url("https://a10.gaanacdn.com/gn_img/albums/d41WjznWPL/1WjzqevoWP/size_m.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+.song4{
+    width:150px;
+    height:150px;
+    background-image:url("https://c.saavncdn.com/220/Kaley-Sheshe-Hindi-2023-20230706132407-500x500.jpg");
+    background-size: contain;
+    border-radius: 10%;
+}
+.song5{
+    width:150px;
+    height:150px;
+    background-image: url("https://c.saavncdn.com/381/Jat-Clan-Haryanvi-2023-20231110223027-500x500.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+.song6{
+    width:150px;
+    height:150px;
+    background-image: url("https://a10.gaanacdn.com/gn_img/albums/9En3peWXDV/En3pjm18bX/size_m_1588321030.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+#song-container{
+    display:flex;
+    justify-content: space-around;
+}
+#footer{
+    width:100%;
+    height:10rem;
+    background-color: rgb(39, 37, 37);
+    position:sticky;
+    top:120%;
+    padding:20px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1:hover{
+    font-size: 17px;
+}
+
+.btn2:hover{
+    font-size: 17px;
+}
+.lang:hover{
+    font-size: 17px;
+}
+
+.login:hover{
+    font-size:18px;
+}
+
+.signup:hover{
+    font-size:18px;
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+.hover-imgs:hover{
+    width:170px;
+    height:170px;
+}
+
+
